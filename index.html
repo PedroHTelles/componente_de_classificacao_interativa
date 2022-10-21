@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Pedro Telles / Desafio de Mentor Frontend">
+  <meta name="description" content="Desafio do Mentor Frontend, componente de classificação interativa, desing feito por Mentor Frontend">
+  <meta name="keywords" content="frontend, mentor, pedro, telles, desafio">
+
+  <base href="index.html">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <section id="component-1" class="component visible">
+      <div class="content">
+        <div class="img-star"><img src="images/icon-star.svg" alt="'Star' image" title="Star"></div>
+        <h2>How did we do?</h2>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+      </div>
+      <div class="interactive">
+        <form id="classification" action="" method="get">
+          <div class="rating">
+            <input type="radio" name="rating" id="rating_1" value="1" required>
+            <label class="rating-button" for="rating_1">1</label>
+            <input type="radio" name="rating" id="rating_2" value="2">
+            <label class="rating-button" for="rating_2">2</label>
+            <input type="radio" name="rating" id="rating_3" value="3">
+            <label class="rating-button" for="rating_3">3</label>
+            <input type="radio" name="rating" id="rating_4" value="4">
+            <label class="rating-button" for="rating_4">4</label>
+            <input type="radio" name="rating" id="rating_5" value="5">
+            <label class="rating-button" for="rating_5">5</label>
+          </div>
+          <input id="btn" type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <section id="component-2" class="component invisible">
+      <div>
+        <img src="images/illustration-thank-you.svg" alt="'Thank you' image" title="Thank you">
+        <p><span>You selected <span id="res">()</span> out of 5</span></p>
+      </div>
+      <div class="parag-thank-you">
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don't hesitate to get in touch!
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+# componente_de_classificacao_interativa
+ Componente de classificacao interativa
