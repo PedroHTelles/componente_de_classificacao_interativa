@@ -10,7 +10,7 @@ function check(rating) {
         val = rating[0].value
     } else if (rating[1].checked) {
         val = rating[1].value
-    }else if (rating[2].checked) {
+    } else if (rating[2].checked) {
         val = rating[2].value
     } else if (rating[3].checked) {
         val = rating[3].value
