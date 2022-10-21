@@ -170,6 +170,8 @@ input[type=radio]:checked + label{
 .rating-button:hover{
     background-color: var(--cor1);
     color: var(--cor2);
+
+    transition: 0.6s;
 }
 
 input[type=submit]{
@@ -193,6 +195,8 @@ input[type=submit]{
 
 input[type=submit]:hover{
     background-color: rgba(251, 116, 19, 0.799);
+
+    transition: 0.2s;
 }
 
 input[type=submit]:active{
